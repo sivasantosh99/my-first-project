@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="com.example.github">
+    <globalDestinations/>
+    <edition>bwe</edition>
+  </projectDetails>
+  <config:specialFolders>
+    <config:folder id="_gwGMkMIDEeyAktNkjrTmFQ" kind="com.tibco.amx.zion.schema" location="Schemas"/>
+    <config:folder id="_gw3BkMIDEeyAktNkjrTmFQ" kind="com.tibco.bw.process.folder" location="Processes"/>
+    <config:folder id="_gw6r8MIDEeyAktNkjrTmFQ" kind="bwtf" location="Tests"/>
+    <config:folder id="_gxD14MIDEeyAktNkjrTmFQ" kind="wsdl" location="Service Descriptors"/>
+    <config:folder id="_gxNm4MIDEeyAktNkjrTmFQ" kind="com.tibco.amx.zion.resource" location="Resources"/>
+  </config:specialFolders>
+</config:ProjectConfig>
