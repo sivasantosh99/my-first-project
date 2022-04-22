@@ -1015,3 +1015,32 @@ java.net.ConnectException: Connection refused: connect
 
 !ENTRY com.tibco.bw.core.design.debug.ui 1 0 2022-04-22 11:49:06.319
 !MESSAGE Debugger successfully connected.
+
+!ENTRY org.eclipse.jface 2 0 2022-04-22 12:25:41.160
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-22 12:25:41.160
+!MESSAGE A conflict occurred for F5:
+Binding(F5,
+	ParameterizedCommand(Command(com.tibco.bw.core.design.process.editor.diagram.updateDiagram,Update BWProcess diagram,
+		Perform BWProcess diagram update,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e196476,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.tibco.bw.core.design.process.editor.diagram.ui.diagramContext,,,system)
+Binding(F5,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.StepInto,Step Into,
+		Step into,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6212f34f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(F5,
+	ParameterizedCommand(Command(org.eclipse.ui.file.refresh,Refresh,
+		Refresh the selected items,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2acbe46d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
